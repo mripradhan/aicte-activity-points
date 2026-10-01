@@ -1,6 +1,6 @@
 # AICTE Activity Points PDF generator (standalone, local)
 
-Generates the same PDF CubeStar1's original web app's "Download PDF" button produces
+Generates the same PDF that CubeStar1's original web app's "Download PDF" button produces
 (cover + certificate + index sheet + evaluation sheet + one page per
 activity + preamble), but runs locally in Node with no Supabase/Azure
 account, no login, and no file uploads. Certificate images are read
