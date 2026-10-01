@@ -1,0 +1,15 @@
+{
+  "name": "pdf-gen",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Standalone local generator for the AICTE Activity Points PDF. Bypasses the web app's Azure upload/auth flow by rendering @react-pdf/renderer directly from local certificate images, then merging with the project's public/cover.pdf exactly like components/form-filler/pdf.worker.ts does.",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "4.3.2",
+    "pdf-lib": "1.17.1",
+    "react": "19.0.0"
+  }
+}

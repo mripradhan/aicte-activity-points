@@ -42,4 +42,9 @@ node_modules
 
 exports
 supabase
-scripts
+
+# personal AICTE activity-points data (keep scripts/pdf-gen/*.js committed,
+# just not your own data/images/output)
+/certificateimages/
+/activity_points_*.pdf
+scripts/pdf-gen/data.js
